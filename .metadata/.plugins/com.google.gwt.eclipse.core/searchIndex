@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JavaRefs>
+<JavaRef class="com.google.gwt.eclipse.core.search.JsniJavaRefParamType" offset="10443" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtInput.java">Lcom/google/gwt/dom/client/NativeEvent;</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="10390" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtInput.java">@com.badlogic.gdx.backends.gwt.GwtInput::handleEvent(Lcom/google/gwt/dom/client/NativeEvent;)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="10745" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtInput.java">@com.badlogic.gdx.backends.gwt.GwtApplication::agentInfo()</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="1713" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/preloader/ImageLoader.java">@com.badlogic.gdx.backends.gwt.preloader.ImageLoader::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="1900" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/preloader/ImageLoader.java">@com.badlogic.gdx.backends.gwt.preloader.ImageLoader::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.JsniJavaRefParamType" offset="1775" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/preloader/ImageLoader.java">Lcom/google/gwt/dom/client/NativeEvent;</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.JsniJavaRefParamType" offset="1962" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/preloader/ImageLoader.java">Lcom/google/gwt/dom/client/NativeEvent;</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="5893" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtGraphics.java">@com.badlogic.gdx.backends.gwt.GwtGraphics::fullscreenChanged()</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="5325" source="/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtGraphics.java">@com.badlogic.gdx.backends.gwt.GwtGraphics::fullscreenChanged()</JavaRef>
+</JavaRefs>

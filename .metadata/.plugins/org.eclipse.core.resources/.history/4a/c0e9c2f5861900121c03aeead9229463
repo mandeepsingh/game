@@ -1,0 +1,45 @@
+package com.example.test_andengine;
+
+import org.andengine.entity.modifier.DelayModifier;
+import org.andengine.entity.modifier.MoveXModifier;
+import org.andengine.entity.scene.Scene;
+import org.andengine.entity.scene.background.Background;
+import org.andengine.entity.text.Text;
+import org.andengine.util.modifier.IModifier;
+
+public class SplashScene extends Scene{
+	MainActivity activity;
+	
+	SplashScene(){
+		setBackground(new Background(0.09804f, 0.7274f, 0.8f));
+		activity = MainActivity.getSharedInstance();
+		Text title1 = new Text(0, 0, activity.mFont, activity.getString(R.string.title_1), activity.getVertexBufferObjectManager());
+		Text title2 = new Text(0, 0, activity.mFont, activity.getString(R.string.title_2), activity.getVertexBufferObjectManager());
+		//animate the title
+		title1.setPosition(-title1.getWidth(), activity.mCamera.getHeight() / 2);
+		title2.setPosition(activity.mCamera.getWidth(), activity.mCamera.getHeight() / 2);
+		attachChild(title1);
+		attachChild(title2);
+		title1.registerEntityModifier(new MoveXModifier(1, title1.getX(), activity.mCamera.getWidth() / 2 - title1.getWidth()));
+		title2.registerEntityModifier(new MoveXModifier(1, title2.getX(), activity.mCamera.getWidth() / 2));
+	}
+	
+	public void loadResources(){
+		DelayModifier dMod = new DelayModifier(2,
+				new iEntityModifierListener(){
+			@Override
+			public void onModifierStarted(IModifier arg0, IEntity arg1){
+				
+			}
+			public void onModifierFinished(IModifier arg0, IEntity arg1){
+				activity.setCurrentScene(new MainMenuScene());
+			}
+			
+		});
+		registerEntityModifier(dMod);
+		activity.setCurrentScene(new MainMenuScene());
+
+	}
+	
+}
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.andengine.ui.activity.SimpleBaseGameActivity"/>
+<fullyQualifiedTypeName name="org.andengine.entity.util.FPSLogger"/>
+<fullyQualifiedTypeName name="org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy"/>
+<fullyQualifiedTypeName name="org.andengine.opengl.font.Font"/>
+<fullyQualifiedTypeName name="org.andengine.opengl.font.FontFactory"/>
+<fullyQualifiedTypeName name="android.graphics.Typeface"/>
+<fullyQualifiedTypeName name="org.andengine.entity.text.Text"/>
+<fullyQualifiedTypeName name="org.andengine.entity.modifier.MoveXModifier"/>
+<fullyQualifiedTypeName name="android.view.MenuItem.OnMenuItemClickListener"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.background.Background"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.menu.item.IMenuItem"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.menu.item.TextMenuItem"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.menu.MenuScene.IOnMenuItemClickListener"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.menu.MenuScene"/>
+<fullyQualifiedTypeName name="org.andengine.entity.modifier.DelayModifier"/>
+<fullyQualifiedTypeName name="org.andengine.util.modifier.IModifier"/>
+<fullyQualifiedTypeName name="org.andengine.util.modifier.IModifier.IModifierListener"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="org.andengine.engine.options.EngineOptions.ScreenOrientation"/>
+<fullyQualifiedTypeName name="org.andengine.engine.camera.Camera"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.Scene.IOnSceneTouchListener"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.CameraScene"/>
+<fullyQualifiedTypeName name="org.andengine.entity.scene.Scene"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Array;
+
+public class World {
+	Array<Block> blocks = new Array<Block>();
+	
+	Player player;
+	
+	public Array<Block> getBlocks(){
+		return blocks;
+	}
+	
+	public Player getPlayer(){
+		return player;
+	}
+}

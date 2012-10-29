@@ -1,0 +1,21 @@
+package com.example.test_andengine;
+
+import org.andengine.entity.scene.menu.MenuScene;
+
+import android.view.MenuItem;
+import android.view.MenuItem.OnMenuItemClickListener;
+
+
+public class MainMenuScene extends MenuScene implements OnMenuItemClickListener{
+	MainActivity activity;
+	final int MENU_START = 0;
+	
+	MainMenuScene(){
+		super(MainActivity.getSharedInstance())
+	}
+	@Override
+	public boolean onMenuItemClick(MenuItem arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

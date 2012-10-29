@@ -1,0 +1,6 @@
+import com.badlogic.gdx.graphics.GL10;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.Graphics.glutils.ShapeRenderer;
+public class WorldRenderer {
+
+}

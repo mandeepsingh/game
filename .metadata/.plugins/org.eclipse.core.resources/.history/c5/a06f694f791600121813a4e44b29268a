@@ -1,0 +1,9 @@
+package com.example.test_andengine;
+
+import org.andengine.entity.scene.menu.MenuScene;
+import org.andengine.*;
+
+public class MainMenuScene extends MenuScene implements IOnMenuItemClickListener{
+	MainActivity activity;
+	final int MENU_START = 0;
+}

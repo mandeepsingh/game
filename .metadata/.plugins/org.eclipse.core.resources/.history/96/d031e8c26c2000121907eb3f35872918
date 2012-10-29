@@ -1,0 +1,29 @@
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Array;
+
+public class World {
+	Array<Block> blocks = new Array<Block>();
+	
+	Player player;
+	
+	public World(){
+		createWorld();
+	}
+	
+	public Array<Block> getBlocks(){
+		return blocks;
+	}
+	
+	public Player getPlayer(){
+		return player;
+	}
+	
+	public void createWorld(){
+		player = new Player(new Vector2(7,2));
+		
+		for(int i =0; i<10; i++){
+			blocks.add(new Block(new Vector2(i, 0)));
+		}
+		
+	}
+}

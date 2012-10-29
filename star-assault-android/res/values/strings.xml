@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">star-assault-android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_star_assault">StarAssaultActivity</string>
+
+</resources>

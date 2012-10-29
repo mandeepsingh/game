@@ -1,0 +1,16 @@
+package com.example.test_andengine;
+
+import org.andengine.entity.scene.background.Background;
+import org.andengine.entity.text.Text;
+
+public class SplashScene {
+	MainActivity activity;
+	
+	SplashScene(){
+		setBackground(new Background(0.09804f, 0.6274f, 0));
+		activity = MainActivity.getSharedInstance();
+		Text title1 = new Text(0, 0, activity.mFont, activity.getString(R.string.title_1), activity.getVertexBufferObjectManager());
+		Text title2 = new Text(0, 0, activity.mFont, activity.getString(R.string.title_2), activity.getVertexBufferObjectManager());
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.example.test_andengine;
+
+public class MainMenuScene MenuScene implements IOnMenuItemClickListener{
+	MainActivity activity;
+	final int MENU_START = 0;
+}
